@@ -1,0 +1,62 @@
+In this tutorial, you'll learn how to integrate GetAccept with Azure Active Directory (Azure AD).
+
+When you integrate GetAccept with Azure AD, you can:
+
+Control in Azure AD who has access to GetAccept.
+Enable your users to be automatically signed-in to GetAccept with their Azure AD accounts.
+Manage your accounts in one central location - the Azure portal.
+Adding GetAccept to your Azure applications
+Sign in to the Azure portal using either a work or school account, or a personal Microsoft account.
+On the left navigation pane, select the Azure Active Directory service.
+Navigate to Enterprise Applications and then click New application in the top
+Select Non-gallery application
+Enter GetAccept as name on the right pane and click Add.
+Enable GetAccept SSO
+Follow these steps to enable GetAccept SSO support.
+
+Login to GetAccept, and go to Settings, Integrations, Provisioning and SSO
+Click Connect next to SAML Authentication
+Keep this browser tab open for easy access of settings in later steps
+Configure Azure AD SSO
+Follow these steps to enable Azure AD SSO in the Azure portal.
+
+In the Azure portal, on the GetAccept application integration page, find the Manage section and select single sign-on.
+On the Select a single sign-on method page, select SAML.
+Click the edit/pen icon for Basic SAML Configuration to edit the settings.
+Copy/paste values from the SAML Authentication page in GetAccept. See mapping below.
+Click Save in the top and choose to validate later.
+
+Configure GetAccept SSO
+In the Azure portal, application page, click Certificate (Base64) Download and open the certificate file in a text-editor.
+Copy/paste the content into GetAccept under PUBLIC X.509 CERTIFICATE
+Copy/paste the rest of the fields from Azure to GetAccept. See mapping below.
+Click Save in GetAccept and make sure the integration says Connected.
+
+Assign the Azure AD test user
+In the Azure portal, select Enterprise Applications, and then select All applications.
+In the applications list, select GetAccept.
+In the app's overview page, find the Manage section and select Users and groups.
+Select Add user, then select Users and groups in the Add Assignment dialog.
+In the Users and groups dialog, select yourself from the Users list, then click the Select button at the bottom of the screen.
+Click Assign
+Validate and save AD SSO
+Make sure that the current logged in AD administrator also is a user in GetAccept using the same email address. Also logout from GetAccept before validating to make sure the integration is working.
+
+In the app's overview page, find the Manage section and select Single sign-on.
+Click Validate at the bottom
+Select Sign in as current user
+Wait a few seconds and verify the logged in user inside GetAccept at the lower left corner. Got it working? Yay!
+
+Adding the GetAccept logo to the app
+We recommend that you enable the application to all users and also upload the GetAccept logo. 
+
+Download the GetAccept logo below by right-clicking and saving the logo.
+In the app's overview page, find the Manage section and select Properties.
+Upload the png-file under Logo.
+Click Save at the top.
+
+Test SSO
+Test your Azure AD single sign-on configuration using the Access Panel.
+
+When you click the GetAccept tile in the Access Panel, you should be automatically signed in to the GetAccept for which you set up SSO. For more information about the Access Panel, see Introduction to the Access Panel.
+
